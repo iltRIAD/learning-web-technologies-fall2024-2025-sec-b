@@ -1,26 +1,83 @@
 <html>
-    <head>
-        <title>
-            Profile Picture Form Page
-        </title>
-    </head>
     <body>
-        
-                    <form action="Thanks.html">
-
-                                    <table>
-                                        <tr>
-                                            <td></td>
-                                            <td>
-                                                <input type="button" name="" value="Click" /> 
-                                                <input type="submit" name="" value="Submit"  />
-                                                <input type="reset" name="" value="Rest"  />
-                                            </td>
-                                        </tr>
-                                    </table>
-
-                    </form>
-
-                    
+        <head>
+            <title>Personal Profile Page</title>
+        </head>
+        <form>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <th>
+                    <th colsapan="3">Personal Profile</th>
+                </th>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name" required</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email" required></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="male" required> Male
+                        <input type="radio" name="gender" value="female"> Female
+                        <input type="radio" name="gender" value="other"> Other
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td>
+                        <input type="text" name="day"  maxlength="2" required> /
+                        <input type="text" name="month"  maxlength="2" required> /
+                        <input type="text" name="year"  maxlength="4" required>
+                        <p>(dd/mm/yyyy)</p>
+                    </td>
+                
+                </tr>
+                <tr>
+                    <td>Blood Group</td>
+                    <td>
+                        <select name="blood_group" required>
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+                            <option value="AB+">AB+</option>
+                            <option value="AB-">AB-</option>
+                        </select>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Degree</td>
+                    <td>
+                        <input type="checkbox" name="degree" value="SSC"> SSC
+                        <input type="checkbox" name="degree" value="HSC"> HSC
+                        <input type="checkbox" name="degree" value="BSc"> BSc.
+                        <input type="checkbox" name="degree" value="MSc"> MSc.
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Photo</td>
+                    <td><input type="file" name="photo"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>&emsp13;</td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
     </body>
 </html>

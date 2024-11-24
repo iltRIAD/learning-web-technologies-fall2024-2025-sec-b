@@ -1,12 +1,10 @@
-
-
 <html>
 <head>
     <title>Welcome to Home</title>
 </head>
 <body>
         <h1>Welcome Home!</h1>
-        <a href='logout.php' > logout </a>
+        <a href='Logout.php' > logout </a>
 </body>
 </html>
 

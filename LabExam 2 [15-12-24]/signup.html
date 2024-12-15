@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Registration</title>
+    </head>
+    <body>
+		<form method="post" action="signupcheck.php" enctype="">
+			<fieldset>
+				<table>
+					<legend> Registration </legend>
+                    <tr>
+                        <td><label for="id">Id</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="id" name="id"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" id="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="confirm_password">Confirm Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" id="confirm_password" name="confirm_password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="name" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>User Type</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="user" name="user_type" value="User">
+                            <label for="user">User</label>
+                            <input type="radio" id="admin" name="user_type" value="Admin">
+                            <label for="admin">Admin</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="left">
+                            <button type="submit">Sign Up</button>
+                            <a href="login.html">Sign In</a>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form> 
+    </body>
+</html>
